@@ -1,0 +1,21 @@
+{
+  "name": "SP Radio",
+  "description": "St. Paul's School Radio Stream",
+  "slug": "spradio",
+  "privacy": "public",
+  "sdkVersion": "14.0.0",
+  "version": "0.1.0",
+  "orientation": "portrait",
+  "primaryColor": "#cccccc",
+  "icon": "http://i.imgur.com/PdblVPl.png",
+  "loading": {
+    "icon": "http://i.imgur.com/PdblVPl.png",
+    "hideExponentText": true
+  },
+  "packagerOpts": {
+    "assetExts": ["ttf", "mp4", "mp3"]
+  },
+  "ios": {
+    "supportsTablet": true
+  }
+}
