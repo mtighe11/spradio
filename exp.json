@@ -1,6 +1,6 @@
 {
   "name": "SP Radio",
-  "description": "St. Paul's School Radio Stream",
+  "description": "St. Paul's School Radio Stream.",
   "slug": "spradio",
   "privacy": "public",
   "sdkVersion": "14.0.0",
