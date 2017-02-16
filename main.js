@@ -25,7 +25,9 @@ class App extends React.Component {
     });
 
     liveStream.loadAsync().then(() => {
-      this.setState({ loaded: true, error: null });
+      liveStream.setVolume(1).then(() => {
+        this.setState({ loaded: true, error: null });
+      });
     }).catch(() => {
       this.setState({ error: 'Loading Failed' });
     });
